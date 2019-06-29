@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7EF4756422C6CA6C0096606A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4756322C6CA6C0096606A /* AppDelegate.swift */; };
-		7EF4756622C6CA6C0096606A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4756522C6CA6C0096606A /* ViewController.swift */; };
+		7EF4756622C6CA6C0096606A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4756522C6CA6C0096606A /* LoginViewController.swift */; };
 		7EF4756922C6CA6C0096606A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF4756722C6CA6C0096606A /* Main.storyboard */; };
 		7EF4756B22C6CA6E0096606A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF4756A22C6CA6E0096606A /* Assets.xcassets */; };
 		7EF4756E22C6CA6E0096606A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF4756C22C6CA6E0096606A /* LaunchScreen.storyboard */; };
+		7EF4757622C6D7700096606A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4757522C6D7700096606A /* HomeViewController.swift */; };
+		7EF4757822C6DC5F0096606A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4757722C6DC5F0096606A /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EF4756022C6CA6C0096606A /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF4756322C6CA6C0096606A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EF4756522C6CA6C0096606A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EF4756522C6CA6C0096606A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7EF4756822C6CA6C0096606A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EF4756A22C6CA6E0096606A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF4756D22C6CA6E0096606A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF4756F22C6CA6E0096606A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF4757522C6D7700096606A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7EF4757722C6DC5F0096606A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				7EF4756322C6CA6C0096606A /* AppDelegate.swift */,
-				7EF4756522C6CA6C0096606A /* ViewController.swift */,
+				7EF4756522C6CA6C0096606A /* LoginViewController.swift */,
 				7EF4756722C6CA6C0096606A /* Main.storyboard */,
+				7EF4757522C6D7700096606A /* HomeViewController.swift */,
 				7EF4756A22C6CA6E0096606A /* Assets.xcassets */,
 				7EF4756C22C6CA6E0096606A /* LaunchScreen.storyboard */,
 				7EF4756F22C6CA6E0096606A /* Info.plist */,
+				7EF4757722C6DC5F0096606A /* UserViewController.swift */,
 			);
 			path = LoginScreen;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF4756622C6CA6C0096606A /* ViewController.swift in Sources */,
+				7EF4756622C6CA6C0096606A /* LoginViewController.swift in Sources */,
+				7EF4757822C6DC5F0096606A /* UserViewController.swift in Sources */,
 				7EF4756422C6CA6C0096606A /* AppDelegate.swift in Sources */,
+				7EF4757622C6D7700096606A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
